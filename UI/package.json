@@ -1,0 +1,47 @@
+{
+  "name": "bigid",
+  "version": "1.0.0",
+  "description": "Job searching portal",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest --coverage",
+    "dev": "webpack serve",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
+  },
+  "author": "Ismail",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "@babel/preset-typescript": "^7.24.1",
+    "@react-jvectormap/core": "^1.0.4",
+    "@react-jvectormap/world": "^1.1.2",
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^15.0.7",
+    "babel-loader": "^9.1.3",
+    "html-webpack-plugin": "^5.6.0",
+    "jest": "^29.7.0",
+    "jquery": "^3.7.1",
+    "jsdom": "^24.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "react-simple-maps": "^3.0.0",
+    "redux": "^5.0.1",
+    "webpack": "^5.91.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest-environment-jsdom": "^29.7.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
